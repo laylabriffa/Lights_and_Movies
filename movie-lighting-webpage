@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Lighting Techniques</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>The Different Lights Used in Movie Setups</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Lighting plays a critical role in shaping the visual mood of a movie scene. Different lighting setups influence how we perceive characters, emotions, and environments. From high-key lighting in comedies to dramatic low-key lighting in thrillers, cinematographers use lighting as a storytelling tool.
+      </p>
+    </section>
+
+    <section>
+      <h2>Common Types of Movie Lights</h2>
+      <ul>
+        <li><strong>Key Light:</strong> The main light source in a scene.</li>
+        <li><strong>Fill Light:</strong> Used to fill shadows created by the key light.</li>
+        <li><strong>Back Light (Rim Light):</strong> Helps separate the subject from the background.</li>
+        <li><strong>Practical Lights:</strong> On-screen lights like lamps or candles used as part of the scene.</li>
+        <li><strong>Ambient Light:</strong> Natural or existing light in the shooting environment.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Visual Example</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/3_point_lighting_setup.jpg" alt="Three Point Lighting Diagram" />
+      <p>Three-point lighting is a standard technique in film and photography, combining key, fill, and back lights.</p>
+    </section>
+
+    <section>
+      <h2>Learn More</h2>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Three-point_lighting" target="_blank">Three-Point Lighting on Wikipedia</a></li>
+        <li><a href="https://nofilmschool.com/lighting-techniques" target="_blank">No Film School: Lighting Techniques</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Lighting in Action</h2>
+      <video controls width="400">
+        <source src="https://archive.org/download/movie-lighting-tutorial/movie-lighting.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created for DGA1020 – Introduction to Web Development</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f0f0f5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #003366;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+video {
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+ul {
+  line-height: 1.6;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
